@@ -2,7 +2,7 @@ pipeline {
     agent { label 'docker-build-node' }
     tools {
 	jdk 'Java17'
-	maven 'Maven3'
+	maven 'maven3'
     }
     stages{
 	stage("Cleanup Workspace"){
