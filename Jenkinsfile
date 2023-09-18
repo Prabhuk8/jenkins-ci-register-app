@@ -1,5 +1,5 @@
 pipeline {
-    agent ( label 'docker-node')
+    agent ( label 'docker-build-node')
     tools {
 	jdk 'Java17'
 	maven 'Maven3'
