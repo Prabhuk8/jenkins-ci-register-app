@@ -12,7 +12,7 @@ pipeline {
 	}
 	stage("Checkout From SCM"){
 	     steps {
-		 git branch: 'main', credentialsId: 'github', url: 'https://https://github.com/Prabhuk8/jenkins-ci-register-app'
+		 git branch: 'main', credentialsId: 'github', url: 'https://github.com/Prabhuk8/jenkins-ci-register-app'
 	     }
 	}
 	stage("Build Application"){
